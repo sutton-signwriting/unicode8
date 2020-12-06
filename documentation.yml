@@ -1,0 +1,18 @@
+toc:
+  - name: Unicode 8 Modules
+    file: README.md
+  - symbol
+  - symbol.re
+  - symbol.parse
+  - symbol.compose
+  - string
+  - string.re
+  - string.parse
+  - string.compose
+  - convert
+  - convert.fsw2uni
+  - convert.swu2uni
+  - convert.uni2txt
+  - convert.uni2hex
+  - convert.uni2fsw
+  - convert.uni2swu
