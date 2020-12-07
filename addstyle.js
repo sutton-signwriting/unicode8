@@ -11,7 +11,9 @@ const appendStyle = `
     local('NotoSansSignWriting'),
     local('Noto Sans SignWriting'),
     local('Noto_Sans_SignWriting'),
-    url('https://github.com/googlefonts/noto-fonts/raw/master/unhinted/otf/NotoSansSignWriting/NotoSansSignWriting-Regular.otf?raw=true') format('opentype');
+    local('Noto Sans SignWriting Regular'),
+    local('Noto_Sans_SignWriting_Regular'),
+    url('https://cdn.jsdelivr.net/gh/googlefonts/noto-fonts/unhinted/otf/NotoSansSignWriting/NotoSansSignWriting-Regular.otf') format('opentype');
 }
 
 .pre,

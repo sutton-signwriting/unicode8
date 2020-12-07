@@ -10,10 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2020-12-06
 ### Added
-- uni8 modules of symbol, string, and convert
-- documentation for uni8 modules
+- unicode 8 modules of symbol, string, and convert
+- documentation for unicode 8 modules
 
 
 
-[Unreleased]: https://github.com/sutton-signwriting/uni8/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/sutton-signwriting/uni8/releases/tag/v1.0.0
+[Unreleased]: https://github.com/sutton-signwriting/unicode8/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.0.0

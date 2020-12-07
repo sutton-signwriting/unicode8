@@ -1,6 +1,5 @@
 
-/** The string module contains regular expressions and functions for parsing and composing SignWriting in Unicode 8 (uni8).
- * [SignWriting in Unicode 8 (uni8)](https://en.wikipedia.org/wiki/SignWriting#Unicode)
+/** The string module contains regular expressions and functions for parsing and composing SignWriting in Unicode 8 (uni8) symbol strings.
  * @module string
  */
 

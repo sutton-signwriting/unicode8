@@ -1,6 +1,6 @@
 {
-  "name": "@sutton-signwriting/uni8",
-  "description": "a javascript package for SignWriting that processes Unicode 8 characters",
+  "name": "@sutton-signwriting/unicode8",
+  "description": "a javascript package for processing SignWriting in Unicode 8 (uni8) characters",
   "version": "1.0.0",
   "keywords": [
     "SignWriting",
@@ -10,12 +10,12 @@
     "ASCII",
     "Unicode"
   ],
-  "homepage": "https://sutton-signwriting.github.io/uni8/",
+  "homepage": "https://sutton-signwriting.github.io/unicode8/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sutton-signwriting/uni8.git"
+    "url": "https://github.com/sutton-signwriting/unicode8.git"
   },
-  "bugs": "https://github.com/sutton-signwriting/uni8/issues",
+  "bugs": "https://github.com/sutton-signwriting/unicode8/issues",
   "license": "MIT",
   "author": {
     "name": "Steve Slevinski",
@@ -28,17 +28,17 @@
     "LICENSE",
     "package.json",
     "src/*",
-    "uni8.*",
+    "unicode8.*",
     "convert/*",
     "symbol/*",
     "string/*"
   ],
-  "main": "uni8.min.cjs",
-  "module": "uni8.min.mjs",
-  "browser": "uni8.min.js",
-  "unpkg": "uni8.min.js",
+  "main": "unicode8.min.cjs",
+  "module": "unicode8.min.mjs",
+  "browser": "unicode8.min.js",
+  "unpkg": "unicode8.min.js",
   "scripts": {
-    "prebuild": "rimraf uni8.* symbol string convert",
+    "prebuild": "rimraf unicode8.* symbol string convert",
     "build": "rollup -c",
     "postbuild": "node subpackages.js",
     "test": "jest || true",
@@ -51,7 +51,7 @@
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.6.3",
     "@babel/preset-env": "^7.6.0",
-    "documentation": "^12.1.2",
+    "documentation": "^13.1.0",
     "jest": "^24.9.0",
     "rimraf": "^3.0.0",
     "rollup": "^1.21.4",

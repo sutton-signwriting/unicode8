@@ -6,12 +6,12 @@ import { version } from './package.json';
 const file = (name, ext) => `${name}.${ext}`
 const fileMin = (name, ext) => `${name}.min.${ext}`
 const banner = (name) => '/**' +
-  '\n* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/uni8)' +
+  '\n* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/unicode8)' +
   '\n* Author: Steve Slevinski  (https://SteveSlevinski.me)' +
   '\n* ' + name + ' is released under the MIT License.' +
   '\n*/\n';
 const footer = '\n/* support ongoing development on https://patreon.com/signwriting */';
-const bannerMin = () => '/* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/uni8)' +
+const bannerMin = () => '/* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/unicode8)' +
   ', author: Steve Slevinski (https://SteveSlevinski.me), license: MIT */';
 const footerMin = '/* the end */';
 
@@ -82,8 +82,8 @@ const sections = (input, name, dirname, filename) => [
 ]
 
 export default [
-  ...sections('src/index.js', 'ssw.uni8', './', 'uni8'),
-  ...sections('src/symbol/index.js', 'ssw.uni8.symbol', './symbol/', 'symbol'),
-  ...sections('src/string/index.js', 'ssw.uni8.string', './string/', 'string'),
-  ...sections('src/convert/index.js', 'ssw.uni8.convert', './convert/', 'convert'),
+  ...sections('src/index.js', 'ssw.unicode8', './', 'unicode8'),
+  ...sections('src/symbol/index.js', 'ssw.unicode8.symbol', './symbol/', 'symbol'),
+  ...sections('src/string/index.js', 'ssw.unicode8.string', './string/', 'string'),
+  ...sections('src/convert/index.js', 'ssw.unicode8.convert', './convert/', 'convert'),
 ];
