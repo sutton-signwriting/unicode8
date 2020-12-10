@@ -69,11 +69,11 @@ The distribution is available in three flavors.  Minified, the whole library is 
 #### Unpkg
     // import entire library
     // available as ssw.unicode8
-    <script src="https://unpkg.com/@sutton-signwriting/unicode8@1.0.0"></script>
+    <script src="https://unpkg.com/@sutton-signwriting/unicode8@1.1.0"></script>
 
     // import individual module
-    // available as ssw.unicode8.symbol
-    <script src="https://unpkg.com/@sutton-signwriting/unicode8@1.0.0/symbol/symbol.js"></script>
+    // available as ssw.unicode8.font
+    <script src="https://unpkg.com/@sutton-signwriting/unicode8@1.1.0/font/font.js"></script>
 
 ## License
 MIT

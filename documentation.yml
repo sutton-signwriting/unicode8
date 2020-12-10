@@ -1,6 +1,8 @@
 toc:
-  - name: SignWriting in Unicode 8 Modules
+  - name: SignWriting in Unicode 8 (uni8)
     file: README.md
+  - font
+  - font.cssAppend
   - symbol
   - symbol.re
   - symbol.parse

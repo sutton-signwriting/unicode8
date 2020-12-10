@@ -1,7 +1,7 @@
 {
   "name": "@sutton-signwriting/unicode8",
   "description": "a javascript package for processing SignWriting in Unicode 8 (uni8) characters",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": [
     "SignWriting",
     "sign language",
@@ -23,22 +23,24 @@
     "url": "https://SteveSlevinski.me"
   },
   "files": [
+    "ABOUT.md",
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
     "package.json",
     "src/*",
     "unicode8.*",
-    "convert/*",
+    "font/*",
     "symbol/*",
-    "string/*"
+    "string/*",
+    "convert/*"
   ],
   "main": "unicode8.min.cjs",
   "module": "unicode8.min.mjs",
   "browser": "unicode8.min.js",
   "unpkg": "unicode8.min.js",
   "scripts": {
-    "prebuild": "rimraf unicode8.* symbol string convert",
+    "prebuild": "rimraf unicode8.* font symbol string convert",
     "build": "rollup -c",
     "postbuild": "node subpackages.js",
     "test": "jest || true",

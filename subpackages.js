@@ -3,7 +3,7 @@ const fs = require('fs');
 
 var package = JSON.parse(fs.readFileSync('package.json'));
 
-['symbol', 'string', 'convert'].map(section => {
+['font', 'symbol', 'string', 'convert'].map(section => {
   fs.writeFile(`${section}/package.json`, JSON.stringify({
     name: `${package.name}/${section}`,
     version: package.version,

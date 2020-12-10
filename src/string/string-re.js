@@ -1,6 +1,6 @@
 
 /**
- * Object of regular expressions for style strings
+ * Object of regular expressions for string of symbols
  * 
  *   { full }
  * @alias string.re

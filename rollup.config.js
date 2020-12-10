@@ -83,6 +83,7 @@ const sections = (input, name, dirname, filename) => [
 
 export default [
   ...sections('src/index.js', 'ssw.unicode8', './', 'unicode8'),
+  ...sections('src/font/index.js', 'ssw.unicode8.font', './font/', 'font'),
   ...sections('src/symbol/index.js', 'ssw.unicode8.symbol', './symbol/', 'symbol'),
   ...sections('src/string/index.js', 'ssw.unicode8.string', './string/', 'string'),
   ...sections('src/convert/index.js', 'ssw.unicode8.convert', './convert/', 'convert'),

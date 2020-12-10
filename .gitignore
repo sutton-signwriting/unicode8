@@ -1,9 +1,7 @@
 .DS_Store
 node_modules
-/core.*
-/fsw
-/fswquery
-/swu
-/swuquery
-/style
+/unicode8.*
+/font
+/symbol
+/string
 /convert
