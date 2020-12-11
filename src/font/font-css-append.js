@@ -21,7 +21,7 @@ const cssAppend = function(dir='') {
     style.setAttribute("id","SgnwUnicode8FontCss")
     style.appendChild(document.createTextNode(`
     @font-face {
-      font-family: "NoToSansSignWriting";
+      font-family: "NotoSansSignWriting";
       src: 
         local('NotoSansSignWriting'),
         local('Noto Sans SignWriting'),
