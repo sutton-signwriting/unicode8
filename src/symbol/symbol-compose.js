@@ -18,8 +18,8 @@ import { re } from './symbol-re';
  */
 const compose = (symbolObject) => {
   if (typeof symbolObject !== 'object' || symbolObject === null) return undefined;
-
-  return symbolObject.base?symbolObject.base:'' + symbolObject.base?symbolObject.fill:'' + symbolObject.base?symbolObject.rotation:'';
+  const sym = (symbolObject.base?symbolObject.base:'') + (symbolObject.fill?symbolObject.fill:'') + (symbolObject.rotation?symbolObject.rotation:'');
+  return sym?sym:undefined;
 }
 
 export { compose }

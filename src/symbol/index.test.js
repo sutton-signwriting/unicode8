@@ -7,7 +7,7 @@ it('should pass', () => {
 
 it('should parse to object and back to original string', () => {
   let symbols = [
-    '𝠀'
+    '𝠀','𝠀𝪛𝪡','𝠀𝪛','𝠀𝪡'
   ];
   symbols.map((test) => {
     expect(compose(parse(test))).toBe(test);

@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Todo
 - ???
 
+## [1.1.2] - 2020-12-12
+### Fixed
+- symbol compose function
+
+### Added
+- tests for compose and parse
+
 ## [1.1.1] - 2020-12-11
 ### Fixed
 - font-family name to NotoSansSignWriting
@@ -23,7 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/sutton-signwriting/unicode8/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/sutton-signwriting/unicode8/compare/v1.1.2...HEAD
+[1.1.2]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.1.2
 [1.1.1]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.1.1
 [1.1.0]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.1.0
 [1.0.0]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.0.0
