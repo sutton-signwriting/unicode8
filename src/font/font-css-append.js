@@ -28,8 +28,8 @@ const cssAppend = function(dir='') {
         local('Noto_Sans_SignWriting'),
         local('Noto Sans SignWriting Regular'),
         local('Noto_Sans_SignWriting_Regular'),
-        ${dir?`url('${dir}NotoSansSignWriting-Regular.otf') format('truetype'),`:""}
-        url('https://cdn.jsdelivr.net/gh/googlefonts/noto-fonts/unhinted/otf/NotoSansSignWriting/NotoSansSignWriting-Regular.otf') format('opentype');
+        ${dir?`url('${dir}NotoSansSignWriting-Regular.ttf') format('truetype'),`:""}
+        url('https://notofonts.github.io/sign-writing/fonts/NotoSansSignWriting/full/ttf/NotoSansSignWriting-Regular.ttf') format('opentype');
     }
     `));
     document.head.appendChild(style);

@@ -6,13 +6,14 @@
 
 <img alt="SignWriting in Unicode 8 (uni8) Mindmap" src="./Unicode8.jpg" width="100%">
 
-@sutton-signwriting/unicode8 is a javascript package for processing SignWriting in Unicode 8 (uni8) characters.  See [SignWriting#Unicode](https://en.wikipedia.org/wiki/SignWriting#Unicode) for more information.
+@sutton-signwriting/unicode8 is a javascript package for processing SignWriting in Unicode 8 (uni8) characters.  See [SignWriting#Unicode](https://en.wikipedia.org/wiki/SignWriting#Unicode) for more information about the characters and [notofont/sign-writing](https://github.com/notofonts/sign-writing) for more information about the Unicode compliant font.
 
-This package also supports Formal SignWriting in ASCII (FSW) and SignWriting in Unicode (SWU) character sets.  See [draft-slevinski-formal-signwriting](https://tools.ietf.org/id/draft-slevinski-formal-signwriting-07.html) for detailed specification.
+This package also supports Formal SignWriting in ASCII (FSW) and SignWriting in Unicode (SWU) character sets.  See [draft-slevinski-formal-signwriting](https://tools.ietf.org/id/draft-slevinski-formal-signwriting-09.html) for detailed specification.
 
 > Author: https://SteveSlevinski.me  
 > Channel: https://www.youtube.com/channel/UCXu4AXlG0rXFtk_5SzumDow  
 > Support: https://www.patreon.com/signwriting  
+> Donate: https://donate.sutton-signwriting.io  
 
 ## Useful links
 

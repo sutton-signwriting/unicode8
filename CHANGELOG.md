@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Todo
 - ???
 
+## [1.2.0] - 2022-11-08
+### Changed
+- font
+- dependencies
+- URL links
+
 ## [1.1.2] - 2020-12-12
 ### Fixed
 - symbol compose function
@@ -29,8 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - documentation for unicode 8 modules
 
 
-
-[Unreleased]: https://github.com/sutton-signwriting/unicode8/compare/v1.1.2...HEAD
+[Unreleased]: https://github.com/sutton-signwriting/unicode8/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.2.0
 [1.1.2]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.1.2
 [1.1.1]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.1.1
 [1.1.0]: https://github.com/sutton-signwriting/unicode8/releases/tag/v1.1.0

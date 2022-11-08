@@ -1,5 +1,5 @@
-import resolve from 'rollup-plugin-node-resolve'
-import babel from 'rollup-plugin-babel'
+import resolve from '@rollup/plugin-node-resolve'
+import babel from '@rollup/plugin-babel'
 import { terser } from 'rollup-plugin-terser'
 import { version } from './package.json';
 
@@ -8,11 +8,17 @@ const fileMin = (name, ext) => `${name}.min.${ext}`
 const banner = (name) => '/**' +
   '\n* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/unicode8)' +
   '\n* Author: Steve Slevinski  (https://SteveSlevinski.me)' +
+  '\n* Sponsor: https://patreon.com/signwriting' +
+  '\n* Donate: https://donate.sutton-signwriting.io' +
+  '\n*' +
   '\n* ' + name + ' is released under the MIT License.' +
   '\n*/\n';
-const footer = '\n/* support ongoing development on https://patreon.com/signwriting */';
-const bannerMin = () => '/* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/unicode8)' +
-  ', author: Steve Slevinski (https://SteveSlevinski.me), license: MIT */';
+  const footer = '\n/* the end */';
+  const bannerMin = () => '/* Sutton SignWriting Unicode 8 Module v' + version + ' (https://github.com/sutton-signwriting/unicode8)' +
+  ', author: Steve Slevinski (https://SteveSlevinski.me)' +
+  ', sponsor: https://patreon.com/signwriting' +
+  ', donate: https://donate.sutton-signwriting.io' +
+  ', license: MIT */';
 const footerMin = '/* the end */';
 
 const defOut = (name, format, dirname, filename, ext) => {
@@ -52,7 +58,8 @@ const main = (input, name, dirname, filename) => {
     plugins: [
       resolve(),
       babel({
-        exclude: 'node_modules/**'
+        exclude: 'node_modules/**',
+        babelHelpers: 'bundled'
       })
     ]
   }
@@ -65,7 +72,8 @@ const min = (input, name, dirname, filename) => {
     plugins: [
       resolve(),
       babel({
-        exclude: 'node_modules/**'
+        exclude: 'node_modules/**',
+        babelHelpers: 'bundled'
       }),
       terser({
         output: {

@@ -13,7 +13,7 @@ const appendStyle = `
     local('Noto_Sans_SignWriting'),
     local('Noto Sans SignWriting Regular'),
     local('Noto_Sans_SignWriting_Regular'),
-    url('https://cdn.jsdelivr.net/gh/googlefonts/noto-fonts/unhinted/otf/NotoSansSignWriting/NotoSansSignWriting-Regular.otf') format('opentype');
+    url('https://notofonts.github.io/sign-writing/fonts/NotoSansSignWriting/full/ttf/NotoSansSignWriting-Regular.ttf') format('opentype');
 }
 
 .pre,
